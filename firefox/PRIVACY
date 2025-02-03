@@ -1,0 +1,4 @@
+Sentiment and Emotion Information does not collect any data.
+To use the add - on, the user is required to set up a private to them NLU service in IBM Cloud, using the Free IBM Cloud Tier services. 
+Any data that is sent for analysis is sent from the user's browser to the defined by the user IBM NLU instance
+The privacy policy the user has agreed to, when enabling the Free IBM Cloud services, applies. This Privacy Policy is between the user and IBM. 

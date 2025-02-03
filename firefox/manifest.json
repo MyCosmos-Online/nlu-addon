@@ -4,8 +4,14 @@
 	"description": "Select text, and get information about the sentiment of the text and the emotions it indicates.",
 	"version": "0.0.2",
 	"icons": {
-			"48": "icons/mycosmos-nlu-48.png",
-			"96": "icons/mycosmos-nlu-96.png"
+		"48": "icons/mycosmos-nlu-48.png",
+		"96": "icons/mycosmos-nlu-96.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "nlu-addon@nameprivate.eu",
+			"strict_min_version": "109.0"
+		}
 	},
 	"background": {
 		"scripts": [

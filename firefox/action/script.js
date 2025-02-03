@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 		const wres = document.getElementById("nluEmotions")
 		if (nluResult.warning) { 
 			if (!nluResult.sentiment)  { 
-			wsent.innerHTML = "Something unexpected happened";
+			wsent.innerText = "Something unexpected happened";
 			wsent.classList.add("error");
-			wres.innerHTML = nluResult.warning;
+			wres.innerText = nluResult.warning;
 			return;
 			} else { 
-				wres.innerHTML = "No emotion information<br/>"+nluResult.warning;
+				wres.innerText = "No emotion information : "+nluResult.warning;
 				wres.classList.add("error");
 			}
 		}

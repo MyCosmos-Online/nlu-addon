@@ -2,10 +2,11 @@
 	"manifest_version": 3,
 	"name": "Sentiment and Emotion Information",
 	"description": "Select text, and get information about the sentiment of the text and the emotions it indicates.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"icons": {
 		"48": "icons/mycosmos-nlu-48.png",
-		"96": "icons/mycosmos-nlu-96.png"
+		"96": "icons/mycosmos-nlu-96.png",
+		"128": "icons/mycosmos-nlu-128.png"
 	},
 	"browser_specific_settings": {
 		"gecko": {
@@ -21,7 +22,8 @@
 	"action": {
 		"default_icon": {
 			"48": "icons/mycosmos-nlu-48.png",
-			"96": "icons/mycosmos-nlu-96.png"
+			"96": "icons/mycosmos-nlu-96.png",
+			"128": "icons/mycosmos-nlu-128.png"
 		},
 		"default_popup": "action/index.html",
 		"default_title": "Sentiment and Emotion Information"
@@ -33,8 +35,6 @@
 		"activeTab",
 		"notifications",
 		"contextMenus",
-		"webRequest",
-		"webRequestBlocking",
 		"storage"
 	],
 	"host_permissions": [
